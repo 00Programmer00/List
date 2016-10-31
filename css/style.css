@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+}
+#input{
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+
+}
+#Buttons{
+    text-align: right;
+}
+.ButtonStyle{
+    font-size: 35px;
+    margin-left: 15px ;
+    background-color: navy;
+    color: gold;
+
+
+}
+#Remove{
+
+}
+#List{
+    list-style-type: none;
+    width: 360px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    //padding: 0;
+}
+.item{
+    font-size: 30px;
+    display: block;
+    font-family: "Comic Sans MS";
+    font-style:italic;
+    background-color: greenyellow;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+input{
+
+}
+#List input{
+    float: left;
+    margin-right: 20px;
+}
+.checkbox {
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
+}
