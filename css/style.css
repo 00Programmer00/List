@@ -5,7 +5,11 @@ body{
     border-radius: 30px;
     font-size: 40px;
     font-family: "Comic Sans MS";
+    text-align: center;
 
+}
+#input:focus{
+    outline: none;
 }
 #Buttons{
     text-align: right;
@@ -18,30 +22,37 @@ body{
 
 
 }
-#Remove{
 
-}
-#List{
+.list{
     list-style-type: none;
-    width: 360px;
+    width: 500px;
     text-align: center;
     margin: 0 auto;
     margin-top: 40px;
     //padding: 0;
 }
 .item{
+
+    width: 400px;
     font-size: 30px;
     display: block;
     font-family: "Comic Sans MS";
     font-style:italic;
-    background-color: greenyellow;
+    background-image: url("images/3.jpg");
+    color: ghostwhite;
     border-radius: 30px;
     margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: center;
+    position: relative;
 
 }
-input{
-
+.item:hover{
+    margin-left: 65px;
+    cursor: pointer;
 }
+
+
 #List input{
     float: left;
     margin-right: 20px;
@@ -52,4 +63,27 @@ input{
     width: 35px;
     height: 35px;
     margin-top: 4px;
+    display: block;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+}
+#editBox{
+    width: 600px;
+    height: 50px;
+
+    float: right;
+
+}
+.editButton{
+    height: 50px;
+    width: 200px;
+    background-color: lawngreen;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
 }
